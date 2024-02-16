@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "`Название занятия`" - `Фамилия и имя студента`
+# Домашнее задание к занятию "Домашнее задание к занятию «Git»" - "Андреев Сергей"
 
 
 ### Инструкция по выполнению домашнего задания
@@ -42,8 +42,11 @@
 ```
 
 `При необходимости прикрепитe сюда скриншоты
-![Название скриншота 1](ссылка на скриншот 1)`
-
+![git config --list](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_304.png)
+![git status](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_292.png)
+![git commit](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_293.png)
+![git log](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_294.png)
+![git status](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_292.png)
 
 ---
 
@@ -67,8 +70,9 @@
 ```
 
 `При необходимости прикрепитe сюда скриншоты
-![Название скриншота 2](ссылка на скриншот 2)`
-
+![touch .gitignore](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_295.png)
+![cat .gitignore](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_297.png)
+![git commit](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_296.png)
 
 ---
 
@@ -92,7 +96,11 @@
 ```
 
 `При необходимости прикрепитe сюда скриншоты
-![Название скриншота](ссылка на скриншот)`
+![git checkout](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_298.png)
+![nano test.sh](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_303.png)
+![git checkout main](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_300.png)
+![git push](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_301.png)
+![network graph](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_302.png)
 
 ### Задание 4
 
