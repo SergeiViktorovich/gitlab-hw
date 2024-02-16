@@ -24,102 +24,30 @@
 
 ### Задание 1
 
-`Приведите ответ в свободной форме........`
-
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
-
-```
-Поле для вставки кода...
-....
-....
-....
-....
-```
-
-`При необходимости прикрепитe сюда скриншоты
+`
 ![git config --list](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_304.png)
 ![git status](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_292.png)
 ![git commit](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_293.png)
 ![git log](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_294.png)
 ![git status](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_292.png)
-
+`
 ---
 
 ### Задание 2
 
-`Приведите ответ в свободной форме........`
-
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
-
-```
-Поле для вставки кода...
-....
-....
-....
-....
-```
-
-`При необходимости прикрепитe сюда скриншоты
+`
 ![touch .gitignore](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_295.png)
 ![cat .gitignore](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_297.png)
 ![git commit](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_296.png)
-
+`
 ---
 
 ### Задание 3
 
-`Приведите ответ в свободной форме........`
-
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
-
-```
-Поле для вставки кода...
-....
-....
-....
-....
-```
-
-`При необходимости прикрепитe сюда скриншоты
+`
 ![git checkout](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_298.png)
 ![nano test.sh](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_303.png)
 ![git checkout main](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_300.png)
 ![git push](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_301.png)
 ![network graph](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_302.png)
-
-### Задание 4
-
-`Приведите ответ в свободной форме........`
-
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
-
-```
-Поле для вставки кода...
-....
-....
-....
-....
-```
-
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота](ссылка на скриншот)`
+`
