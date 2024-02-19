@@ -24,27 +24,27 @@
 
 ### Задание 1
 
-![git config --list](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_304.png)
-![git status](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_292.png)
-![git commit](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_293.png)
-![git log](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_294.png)
-![git status](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_292.png)
+![git config --list](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_304.png)  
+![git status](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_292.png)  
+![git commit](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_293.png)  
+![git log](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_294.png)  
+![git status](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_292.png)  
 [Ссылка](https://github.com/SergeiViktorovich/netology/commit/9726766549d9c4c982d6fa73ab70a8c21432d3aa)  
 ---
 
 ### Задание 2
 
-![touch .gitignore](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_295.png)
-![cat .gitignore](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_297.png)
-![git commit](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_296.png)
+![touch .gitignore](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_295.png)  
+![cat .gitignore](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_297.png)  
+![git commit](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_296.png)  
 [Ссылка](https://github.com/SergeiViktorovich/netology/commit/b28196e89e2fb0798fb1476c909587dff5bea6a2)  
 [Ссылка](https://github.com/SergeiViktorovich/netology/commit/45774af2962e9fb541b8b58f192e754ab7245d31)  
 ---
 
 ### Задание 3
 
-![git checkout](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_298.png)
-![nano test.sh](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_303.png)
-![git checkout main](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_300.png)
-![git push](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_301.png)
-![network graph](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_302.png)
+![git checkout](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_298.png)  
+![nano test.sh](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_303.png)  
+![git checkout main](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_300.png)  
+![git push](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_301.png)  
+![network graph](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_302.png)  
