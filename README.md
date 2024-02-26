@@ -32,11 +32,8 @@
 
 ### Задание 2
 
-![touch .gitignore](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_295.png)  
-![cat .gitignore](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_297.png)  
-![git commit](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_296.png)  
-[Ссылка](https://github.com/SergeiViktorovich/netology/commit/b28196e89e2fb0798fb1476c909587dff5bea6a2)  
-[Ссылка](https://github.com/SergeiViktorovich/netology/commit/45774af2962e9fb541b8b58f192e754ab7245d31)  
+![Screenshot_319](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/c2a5dd0e-a644-4467-b41a-9d93aa997ed2)  
+![Screenshot_320](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/a7a28dea-8177-4c37-9f59-9356574d1502)  
 ---
 
 ### Задание 3
