@@ -24,12 +24,10 @@
 
 ### Задание 1
 
-![git config --list](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_304.png)  
-![git status](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_292.png)  
-![git commit](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_293.png)  
-![git log](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_294.png)  
-![git status](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_292.png)  
-[Ссылка](https://github.com/SergeiViktorovich/netology/commit/9726766549d9c4c982d6fa73ab70a8c21432d3aa)  
+![Screenshot_317](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/d53cdd9d-605f-4bb6-a61e-1c338bcc3671)  
+![Screenshot_316](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/5ad2ac7b-e09a-4cca-8243-345d5f225315)  
+![Screenshot_315](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/d107f63e-a67c-428f-be07-3d011193f730)  
+![Screenshot_314](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/ff52992c-72b4-4d77-922a-a0ed2ae2e432)   
 ---
 
 ### Задание 2
