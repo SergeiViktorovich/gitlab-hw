@@ -35,12 +35,3 @@
 ![Screenshot_319](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/c2a5dd0e-a644-4467-b41a-9d93aa997ed2)  
 ![Screenshot_320](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/a7a28dea-8177-4c37-9f59-9356574d1502)  
 
----
-
-### Задание 3
-
-![git checkout](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_298.png)  
-![nano test.sh](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_303.png)  
-![git checkout main](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_300.png)  
-![git push](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_301.png)  
-![network graph](https://github.com/SergeiViktorovich/netology/blob/main/img/Screenshot_302.png)  
