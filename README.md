@@ -34,6 +34,7 @@
 
 ![Screenshot_319](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/c2a5dd0e-a644-4467-b41a-9d93aa997ed2)  
 ![Screenshot_320](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/a7a28dea-8177-4c37-9f59-9356574d1502)  
+
 ---
 
 ### Задание 3
