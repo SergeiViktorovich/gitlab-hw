@@ -42,7 +42,7 @@ zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psq
 ### Настраеваем базу данных для Zabbix сервера
 sudo sed -i 's/# DBPassword=/DBPassword=123456789/g' /etc/zabbix/zabbix_server.conf
 ### Запускаем процессы Zabbix сервера
-sudo systemctl restart zabbix-server apache2  
+sudo systemctl restart zabbix-server apache2
 sudo systemctl enable zabbix-server apache2
 ---
 
