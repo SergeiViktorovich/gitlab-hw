@@ -47,7 +47,17 @@ sudo systemctl enable zabbix-server apache2
 ---
 
 ### Задание 2
+![Screenshot_323](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/3aabf9db-d51b-45b2-8f40-0affe3ac32d1)  
+![Screenshot_324](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/744fc9a8-530b-4521-b50b-b50ddef15243)  
+![Screenshot_325](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/ab12a0e3-02b2-48f8-89f7-9d256c675037)  
+![Screenshot_326](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/d41a6521-dc4a-46f0-a8ff-540544241b01)  
 
-![Screenshot_319](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/c2a5dd0e-a644-4467-b41a-9d93aa997ed2)  
-![Screenshot_320](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/a7a28dea-8177-4c37-9f59-9356574d1502)  
-
+### Установка репозитория Zabbix
+wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.0-4+ubuntu22.04_all.deb
+sudo dpkg -i zabbix-release_6.0-4+ubuntu22.04_all.deb
+sudo apt update
+### Установка Zabbix агент
+sudo apt install zabbix-agent
+### Запуск процесса Zabbix агента
+sudo systemctl restart zabbix-agent
+sudo systemctl enable zabbix-agent
