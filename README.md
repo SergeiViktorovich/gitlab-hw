@@ -53,11 +53,11 @@ sudo systemctl enable zabbix-server apache2
 ![Screenshot_326](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/d41a6521-dc4a-46f0-a8ff-540544241b01)  
 
 ### Установка репозитория Zabbix
-wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.0-4+ubuntu22.04_all.deb
-sudo dpkg -i zabbix-release_6.0-4+ubuntu22.04_all.deb
+wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.0-4+ubuntu22.04_all.deb  
+sudo dpkg -i zabbix-release_6.0-4+ubuntu22.04_all.deb  
 sudo apt update
 ### Установка Zabbix агент
 sudo apt install zabbix-agent
 ### Запуск процесса Zabbix агента
-sudo systemctl restart zabbix-agent
+sudo systemctl restart zabbix-agent  
 sudo systemctl enable zabbix-agent
