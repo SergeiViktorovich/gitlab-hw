@@ -24,10 +24,26 @@
 
 ### Задание 1
 
-![Screenshot_317](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/d53cdd9d-605f-4bb6-a61e-1c338bcc3671)  
-![Screenshot_316](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/5ad2ac7b-e09a-4cca-8243-345d5f225315)  
-![Screenshot_315](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/d107f63e-a67c-428f-be07-3d011193f730)  
-![Screenshot_314](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/ff52992c-72b4-4d77-922a-a0ed2ae2e432)   
+![Screenshot_322](https://github.com/SergeiViktorovich/gitlab-hw/tree/main/img/Screenshot_322.png)>  
+
+### Установка PostgreSQL
+sudo apt install postgresql
+### Установка репозитория Zabbix
+wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.0-4+ubuntu22.04_all.deb
+sudo dpkg -i zabbix-release_6.0-4+ubuntu22.04_all.deb
+sudo apt update
+### Установка Zabbix сервер, веб-интерфейс
+sudo apt install zabbix-server-pgsql zabbix-frontend-php php8.1-pgsql zabbix-apache-conf zabbix-sql-scripts
+### Создаем базу данных
+sudo su - postgres -c 'psql --command "CREATE USER zabbix WITH PASSWORD '\'123456789\'';"'
+sudo su - postgres -c 'psql --command "CREATE DATABASE zabbix OWNER zabbix;"'
+### На хосте Zabbix сервера импортируйем начальную схему и данные
+zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
+### Настраеваем базу данных для Zabbix сервера
+sudo sed -i 's/# DBPassword=/DBPassword=123456789/g' /etc/zabbix/zabbix_server.conf
+### Запускаем процессы Zabbix сервера
+sudo systemctl restart zabbix-server apache2
+sudo systemctl enable zabbix-server apache2
 ---
 
 ### Задание 2
