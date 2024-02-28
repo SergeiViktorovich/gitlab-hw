@@ -24,7 +24,7 @@
 
 ### Задание 1
 
-![Screenshot_322](https://github.com/SergeiViktorovich/gitlab-hw/tree/main/img/Screenshot_322.png)  
+![Screenshot_322](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/53e216e0-f3aa-4b76-b1f5-f45634dc6987)  
 
 ### Установка PostgreSQL
 sudo apt install postgresql
