@@ -24,40 +24,12 @@
 
 ### Задание 1
 
-![Screenshot_322](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/53e216e0-f3aa-4b76-b1f5-f45634dc6987)  
-
-### Установка PostgreSQL
-sudo apt install postgresql
-### Установка репозитория Zabbix
-wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.0-4+ubuntu22.04_all.deb  
-sudo dpkg -i zabbix-release_6.0-4+ubuntu22.04_all.deb  
-sudo apt update
-### Установка Zabbix сервер, веб-интерфейс
-sudo apt install zabbix-server-pgsql zabbix-frontend-php php8.1-pgsql zabbix-apache-conf zabbix-sql-scripts
-### Создаем базу данных
-sudo su - postgres -c 'psql --command "CREATE USER zabbix WITH PASSWORD '\'123456789\'';"'  
-sudo su - postgres -c 'psql --command "CREATE DATABASE zabbix OWNER zabbix;"'
-### На хосте Zabbix сервера импортируйем начальную схему и данные
-zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
-### Настраеваем базу данных для Zabbix сервера
-sudo sed -i 's/# DBPassword=/DBPassword=123456789/g' /etc/zabbix/zabbix_server.conf
-### Запускаем процессы Zabbix сервера
-sudo systemctl restart zabbix-server apache2  
-sudo systemctl enable zabbix-server apache2
+![Screenshot_332](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/72003036-74d5-41c8-822d-f74a8e037adb)  
 ---
 
-### Задание 2
-![Screenshot_323](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/3aabf9db-d51b-45b2-8f40-0affe3ac32d1)  
-![Screenshot_324](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/744fc9a8-530b-4521-b50b-b50ddef15243)  
-![Screenshot_325](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/ab12a0e3-02b2-48f8-89f7-9d256c675037)  
-![Screenshot_326](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/d41a6521-dc4a-46f0-a8ff-540544241b01)  
+### Задание 2-3
+![Screenshot_335](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/73ec95e4-2879-4b8d-b014-78ef06803a6d)  
+![Screenshot_336](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/b5e48e12-4cf0-4e00-811a-abdb8fc2f236)  
 
-### Установка репозитория Zabbix
-wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.0-4+ubuntu22.04_all.deb  
-sudo dpkg -i zabbix-release_6.0-4+ubuntu22.04_all.deb  
-sudo apt update
-### Установка Zabbix агент
-sudo apt install zabbix-agent
-### Запуск процесса Zabbix агента
-sudo systemctl restart zabbix-agent  
-sudo systemctl enable zabbix-agent
+### Задание 4
+![Screenshot_337](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/27c2f17d-540c-4264-89ad-3e3752426fa9)  
