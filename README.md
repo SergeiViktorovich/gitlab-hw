@@ -32,7 +32,7 @@
 
 ### Задание 2
 [Keepalived](https://github.com/SergeiViktorovich/gitlab-hw/blob/main/keepalived.conf) конфиг keepalived  
-[Скрипт](https://github.com/SergeiViktorovich/gitlab-hw/blob/main/check-port.sh) dash скрипт  
+[Скрипт](https://github.com/SergeiViktorovich/gitlab-hw/blob/main/check-port.sh) bash скрипт  
 #### Все работает штатно
 ![Screenshot_346](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/66f93126-deb5-4a0b-8165-12bedd4792a1)  
 #### Отключил NGINX на 192.168.1.182
