@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "Домашнее задание к занятию «Git»" - "Андреев Сергей"
+# Домашнее задание к занятию 1 «Disaster recovery и Keepalived» - "Андреев Сергей"
 
 
 ### Инструкция по выполнению домашнего задания
@@ -23,10 +23,10 @@
 ---
 
 ### Задание 1
-[Ссылка](https://github.com/SergeiViktorovich/gitlab-hw/blob/main/hsrp_advanced%20_asv.pkt)  
-Router1
+[Ссылка](https://github.com/SergeiViktorovich/gitlab-hw/blob/main/hsrp_advanced_asv.pkt) на файл.  
+####Router1  
 ![router1](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/7bd96001-840e-422a-add8-7338757ce3bf)  
-Router2
+####Router2  
 ![router2](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/3b8a65aa-39ba-4b3d-b3c9-c58450029189)  
 ---
 
