@@ -30,9 +30,10 @@
 ![router2](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/3b8a65aa-39ba-4b3d-b3c9-c58450029189)  
 ---
 
-### Задание 2-3
-![Screenshot_335](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/73ec95e4-2879-4b8d-b014-78ef06803a6d)  
-![Screenshot_336](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/b5e48e12-4cf0-4e00-811a-abdb8fc2f236)  
-
-### Задание 4
-![Screenshot_337](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/27c2f17d-540c-4264-89ad-3e3752426fa9)  
+### Задание 2
+[Keepalived](https://github.com/SergeiViktorovich/gitlab-hw/blob/main/keepalived.conf) конфиг keepalived  
+[Скрипт](https://github.com/SergeiViktorovich/gitlab-hw/blob/main/check-port.sh) dash скрипт  
+#### Все работает штатно
+![Screenshot_346](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/66f93126-deb5-4a0b-8165-12bedd4792a1)  
+#### Отключил NGINX на 192.168.1.182
+![Screenshot_347](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/65ffd22a-d5b0-41bc-9fa8-2dc6748b2c63)  
