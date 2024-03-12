@@ -23,8 +23,11 @@
 ---
 
 ### Задание 1
-
-![Screenshot_332](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/72003036-74d5-41c8-822d-f74a8e037adb)  
+[Ссылка](https://github.com/SergeiViktorovich/gitlab-hw/blob/main/hsrp_advanced%20_asv.pkt)  
+Router1
+![router1](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/7bd96001-840e-422a-add8-7338757ce3bf)  
+Router2
+![router2](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/3b8a65aa-39ba-4b3d-b3c9-c58450029189)  
 ---
 
 ### Задание 2-3
