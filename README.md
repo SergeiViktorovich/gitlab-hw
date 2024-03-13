@@ -23,15 +23,12 @@
 ---
 
 ### Задание 1
-[Ссылка](https://github.com/SergeiViktorovich/gitlab-hw/blob/main/haproxy.cfg) на файл haproxy.  
+[Ссылка](https://github.com/SergeiViktorovich/gitlab-hw/blob/main/haproxy2.cfg) на файл haproxy.  
 #### Перенаправление запросов на 4 уровне модели OSI
 ![Screenshot_348](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/9f28be62-72ee-4650-8474-4312a7810f73)  
 ---
 
 ### Задание 2
-[Keepalived](https://github.com/SergeiViktorovich/gitlab-hw/blob/main/keepalived.conf) конфиг keepalived  
-[Скрипт](https://github.com/SergeiViktorovich/gitlab-hw/blob/main/check-port.sh) bash скрипт  
-#### Все работает штатно
-![Screenshot_346](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/66f93126-deb5-4a0b-8165-12bedd4792a1)  
-#### Отключил NGINX на 192.168.1.182
-![Screenshot_347](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/65ffd22a-d5b0-41bc-9fa8-2dc6748b2c63)  
+[ссылка](https://github.com/SergeiViktorovich/gitlab-hw/blob/main/haproxy.cfg) на файл haproxy  
+#### Перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local и без него.
+![Screenshot_349](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/066bc0a1-979d-436d-a083-d368f94f29a3)
