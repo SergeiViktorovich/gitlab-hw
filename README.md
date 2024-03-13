@@ -1,4 +1,4 @@
-# Домашнее задание к занятию 1 «Disaster recovery и Keepalived» - "Андреев Сергей"
+# Домашнее задание к занятию 2 «Кластеризация и балансировка нагрузки» - Андреев Сергей
 
 
 ### Инструкция по выполнению домашнего задания
@@ -23,11 +23,9 @@
 ---
 
 ### Задание 1
-[Ссылка](https://github.com/SergeiViktorovich/gitlab-hw/blob/main/hsrp_advanced_asv.pkt) на файл.  
-#### Router1  
-![router1](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/7bd96001-840e-422a-add8-7338757ce3bf)  
-#### Router2  
-![router2](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/3b8a65aa-39ba-4b3d-b3c9-c58450029189)  
+[Ссылка](https://github.com/SergeiViktorovich/gitlab-hw/blob/main/haproxy.cfg) на файл haproxy.  
+#### Перенаправление запросов на 4 уровне модели OSI
+![Screenshot_348](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/9f28be62-72ee-4650-8474-4312a7810f73)  
 ---
 
 ### Задание 2
