@@ -1,4 +1,4 @@
-# Домашнее задание к занятию 2 «Кластеризация и балансировка нагрузки» - Андреев Сергей
+# Домашнее задание к занятию 3 «Резервное копирование» - Андреев Сергей
 
 
 ### Инструкция по выполнению домашнего задания
@@ -23,12 +23,13 @@
 ---
 
 ### Задание 1
-[Ссылка](https://github.com/SergeiViktorovich/gitlab-hw/blob/main/haproxy2.cfg) на файл haproxy.  
-#### Перенаправление запросов на 4 уровне модели OSI
-![Screenshot_348](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/9f28be62-72ee-4650-8474-4312a7810f73)  
+#### Команда и результат выполнения
+rsync -acv --progress --exclude '.*' /home/user/ /tmp/backup  
+![Screenshot_350](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/d8be569c-e40f-495f-a4c8-ac4482858b7a)  
 ---
 
 ### Задание 2
-[ссылка](https://github.com/SergeiViktorovich/gitlab-hw/blob/main/haproxy.cfg) на файл haproxy  
-#### Перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local и без него.
-![Screenshot_349](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/066bc0a1-979d-436d-a083-d368f94f29a3)
+[ссылка](https://github.com/SergeiViktorovich/gitlab-hw/blob/main/crontab) на файл cron  
+[ссылка](https://github.com/SergeiViktorovich/gitlab-hw/blob/main/backup.sh) на файл скрипт  
+#### Результат
+![Screenshot_351](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/46f9295c-9724-4828-9d34-d8adb3722a78)  
