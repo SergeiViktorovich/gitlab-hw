@@ -36,6 +36,8 @@
 
 Установите и запустите memcached.  
 
+Приведите скриншот systemctl status memcached, где будет видно, что memcached запущен.  
+
 
 ### Задание 3. Удаление по TTL в Memcached
 
