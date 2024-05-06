@@ -44,7 +44,7 @@
 Запишите в memcached несколько ключей с любыми именами и значениями, для которых выставлен TTL 5.  
 
 Приведите скриншот, на котором видно, что спустя 5 секунд ключи удалились из базы.  
-![Screenshot_377](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/3b3acf60-6e85-4644-94be-91d647cad33b)  
+![Screenshot_378](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/51e917a1-644e-444d-a783-8d97387244f8)  
 
 ### Задание 4. Запись данных в Redis
 
