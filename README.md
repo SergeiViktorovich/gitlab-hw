@@ -28,7 +28,7 @@
 management plug-in и зайдите в веб-интерфейс.  
 
 Итогом выполнения домашнего задания будет приложенный скриншот веб-интерфейса RabbitMQ.  
-![Screenshot_385](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/9a882387-1974-4d0b-8db6-e7e7349a2866)  
+![Screenshot_386](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/56938c7e-3d68-46f9-bf50-83b5a21f466f)  
  
 ---
 
