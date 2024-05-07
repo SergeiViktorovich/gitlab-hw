@@ -28,7 +28,7 @@
 
 Приведите скриншот команды 'curl -X GET 'localhost:9200/_cluster/health?pretty', сделанной на сервере с  
 установленным Elasticsearch. Где будет виден нестандартный cluster_name.  
-![Screenshot_380](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/9b4b6be3-6d44-4d23-a859-f3e723437d61)  
+![Screenshot_388](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/a8ccbb05-6ca1-41bc-981c-e5a40bd80743)  
  
 ---
 
@@ -38,7 +38,7 @@
 
 Приведите скриншот интерфейса Kibana на странице http://<ip вашего сервера>:5601/app/dev_tools#/console,  
 где будет выполнен запрос GET /_cluster/health?pretty.  
-![Screenshot_385](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/ef7784dd-0837-40b8-8b32-af8373feb22f)  
+![Screenshot_387](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/5761563b-f2a9-4883-9eec-f4417a144b33)  
 
 ### Задание 3. Logstash
 
