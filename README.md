@@ -84,10 +84,3 @@ $ rabbitmqadmin get queue='hello'
 Приложите скриншот результата работы второго скрипта.  
 ![Screenshot_383](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/44372e15-82de-432b-9148-88f978d4e0d7)  
 
-### Задание 4. Filebeat.
-
-Установите и запустите Filebeat. Переключите поставку логов Nginx с Logstash на Filebeat.  
-
-Приведите скриншот интерфейса Kibana, на котором видны логи Nginx, которые были отправлены через Filebeat.  
-![Screenshot_384](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/07821320-00a1-40ae-8256-66205a31e1b1)  
-
