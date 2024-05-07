@@ -32,24 +32,25 @@
  
 ---
 
-### Задание 2. Memcached
+### Задание 2. Kibana.
 
-Установите и запустите memcached.  
+Установите и запустите Kibana.  
 
-Приведите скриншот systemctl status memcached, где будет видно, что memcached запущен.  
-![Screenshot_376](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/14cbc65b-d1f2-4ec3-89d9-b4491e77ea54)  
+Приведите скриншот интерфейса Kibana на странице http://<ip вашего сервера>:5601/app/dev_tools#/console,  
+где будет выполнен запрос GET /_cluster/health?pretty.  
+![Screenshot_382](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/9b46f968-9cc3-4653-85e5-a2597f11ea11)  
 
-### Задание 3. Удаление по TTL в Memcached
+### Задание 3. Logstash
 
-Запишите в memcached несколько ключей с любыми именами и значениями, для которых выставлен TTL 5.  
+Установите и запустите Logstash и Nginx. С помощью Logstash отправьте access-лог Nginx в Elasticsearch.  
 
-Приведите скриншот, на котором видно, что спустя 5 секунд ключи удалились из базы.  
-![Screenshot_378](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/51e917a1-644e-444d-a783-8d97387244f8)  
+Приведите скриншот интерфейса Kibana, на котором видны логи Nginx.  
+![Screenshot_383](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/44372e15-82de-432b-9148-88f978d4e0d7)  
 
-### Задание 4. Запись данных в Redis
+### Задание 4. Filebeat.
 
-Запишите в Redis несколько ключей с любыми именами и значениями.  
+Установите и запустите Filebeat. Переключите поставку логов Nginx с Logstash на Filebeat.  
 
-Через redis-cli достаньте все записанные ключи и значения из базы, приведите скриншот этой операции.  
-![Screenshot_379](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/9d3ec494-2794-40b2-82cb-91284d9de5bf)  
+Приведите скриншот интерфейса Kibana, на котором видны логи Nginx, которые были отправлены через Filebeat.  
+![Screenshot_384](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/07821320-00a1-40ae-8256-66205a31e1b1)  
 
