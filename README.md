@@ -28,7 +28,7 @@
 management plug-in и зайдите в веб-интерфейс.  
 
 Итогом выполнения домашнего задания будет приложенный скриншот веб-интерфейса RabbitMQ.  
-![Screenshot_386](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/56938c7e-3d68-46f9-bf50-83b5a21f466f)  
+![Screenshot_391](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/cbfc5189-567f-4da4-b2d2-9552da5c2ec4)  
  
 ---
 
@@ -49,7 +49,10 @@ $ pip install pika
 
 Для закрепления материала можете попробовать модифицировать скрипты, чтобы поменять название  
 очереди и отправляемое сообщение.  
-![Screenshot_387](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/5761563b-f2a9-4883-9eec-f4417a144b33)  
+Скрипт producer.py  
+![Screenshot_392](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/e5951d9e-225c-41b9-be7e-9a814dd633c2)  
+Скрипт consumer.py  
+![Screenshot_393](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/543d9ef5-37a3-4fe4-b32e-62d53a59e751)  
 
 ### Задание 3. Подготовка HA кластера
 
