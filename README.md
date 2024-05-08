@@ -49,9 +49,10 @@ $ pip install pika
 
 Для закрепления материала можете попробовать модифицировать скрипты, чтобы поменять название  
 очереди и отправляемое сообщение.  
-Скрипт producer.py  
-![Screenshot_392](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/e5951d9e-225c-41b9-be7e-9a814dd633c2)  
-Скрипт consumer.py  
+
+#### Скрипт producer.py  
+![Screenshot_394](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/f08bb113-b6dc-4e30-a57a-3bc160e5a892)  
+#### Скрипт consumer.py  
 ![Screenshot_393](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/543d9ef5-37a3-4fe4-b32e-62d53a59e751)  
 
 ### Задание 3. Подготовка HA кластера
