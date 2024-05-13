@@ -93,5 +93,9 @@ $ rabbitmqadmin get queue='hello'
 ![Screenshot_402](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/da12b94a-9b70-4a45-901c-11673256bf6f)  
 ![Screenshot_403](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/ab1a23fd-fc84-485f-890e-aa8843938881)  
 
+Скриншот выполнения команды rabbitmqadmin get queue='hello'  
+![Screenshot_404](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/56a39f19-23d9-42f0-acb8-ee21ab216b70)  
+![Screenshot_405](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/d75d6845-c396-4946-8466-cc0aa575dcb6)  
+
 
 
