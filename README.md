@@ -86,5 +86,5 @@ $ rabbitmqadmin get queue='hello'
 поправьте параметры подключения в скрипте consumer.py на вторую ноду и запустите его.  
 
 Приложите скриншот результата работы второго скрипта.  
-![Screenshot_383](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/44372e15-82de-432b-9148-88f978d4e0d7)  
+![Screenshot_399](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/41bec160-f1a6-4cc2-8981-5314e4b23850)  
 
