@@ -97,5 +97,7 @@ $ rabbitmqadmin get queue='hello'
 ![Screenshot_404](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/56a39f19-23d9-42f0-acb8-ee21ab216b70)  
 ![Screenshot_405](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/d75d6845-c396-4946-8466-cc0aa575dcb6)  
 
-
+Выполнения скрипта consumer.py  
+![Screenshot_407](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/0d697435-70a2-4608-96f4-97435ac7b09f)  
+![Screenshot_406](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/66e1fe18-8f28-4cea-a9fd-28265f677a25)  
 
