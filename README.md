@@ -87,4 +87,5 @@ $ rabbitmqadmin get queue='hello'
 
 Приложите скриншот результата работы второго скрипта.  
 ![Screenshot_399](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/41bec160-f1a6-4cc2-8981-5314e4b23850)  
+![Screenshot_401](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/9a78bbd6-eaa0-433b-be75-c49eaeae2a2b)  
 
