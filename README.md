@@ -89,3 +89,9 @@ $ rabbitmqadmin get queue='hello'
 ![Screenshot_399](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/41bec160-f1a6-4cc2-8981-5314e4b23850)  
 ![Screenshot_401](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/9a78bbd6-eaa0-433b-be75-c49eaeae2a2b)  
 
+Вывод команды rabbitmqctl cluster_status  
+![Screenshot_402](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/da12b94a-9b70-4a45-901c-11673256bf6f)  
+![Screenshot_403](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/ab1a23fd-fc84-485f-890e-aa8843938881)  
+
+
+
