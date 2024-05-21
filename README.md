@@ -48,4 +48,4 @@
 
 ### Решение 3
 
-![Screenshot_427](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/d7d01b56-4224-42b1-9da0-680037e74fe2)  
+![Screenshot_428](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/617318e3-4287-4d5b-bb58-603d3a4e685b)  
