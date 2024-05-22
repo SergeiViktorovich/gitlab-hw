@@ -28,7 +28,7 @@
 
 ### Решение 1
 
-  
+![Screenshot_430](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/cce36627-4a5c-46e0-a11b-6dc50e99b703)  
 
 ### Задание 2
 
@@ -43,4 +43,10 @@ where date(p.payment_date) = '2005-07-30' and p.payment_date = r.rental_date and
  
 ### Решение 2
 
+Узким местом в запросе является то, что оконная функция обрабатывает таблицы, данные из которых в дальнейшем не используются (rental, inventory и film). Необходимые данные находятся в таблицае payment и customer. В связи с этим запрос можно оптемезировать так:
   
+```
+SELECT DISTINCT CONCAT(c.last_name, ' ', c.first_name), SUM(p.amount) OVER (partition by c.customer_id)
+FROM payment p, customer c WHERE DATE(p.payment_date) = '2005-07-30' AND p.customer_id = c.customer_id;
+```
+
