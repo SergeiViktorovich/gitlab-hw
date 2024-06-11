@@ -46,4 +46,4 @@
  
 ### Решение 2
 
-  
+![Screenshot_435](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/10265837-9716-4e06-89fe-e2fab6c0308a)  
