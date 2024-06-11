@@ -47,4 +47,7 @@
 ### Решение 2
 
 ![Screenshot_438](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/f515b289-8229-4db4-87cd-815f67c1b39a)  
+![Screenshot_440](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/e18b806e-ca38-4519-a625-0f5b970e1f1f)  
+![Screenshot_441](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/6190481c-eef6-4adc-a786-20ca88b105e7)  
+![Screenshot_442](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/0f73db8f-909b-4eb2-b0c2-e06d38479ebb)  
 
