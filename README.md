@@ -1,4 +1,4 @@
-# Домашнее задание к занятию «Индексы» - Андреев Сергей
+# Домашнее задание к занятию «Защита хоста» - Андреев Сергей
 
 
 ### Инструкция по выполнению домашнего задания
@@ -24,29 +24,24 @@
 
 ### Задание 1
 
-Напишите запрос к учебной базе данных, который вернёт процентное отношение общего размера всех индексов к общему размеру всех таблиц.  
+1. Установите eCryptfs.  
+2. Добавьте пользователя cryptouser.  
+3. Зашифруйте домашний каталог пользователя с помощью eCryptfs.  
+В качестве ответа пришлите снимки экрана домашнего каталога пользователя с исходными и зашифрованными данными.  
 
 ### Решение 1
 
-![Screenshot_430](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/cce36627-4a5c-46e0-a11b-6dc50e99b703)  
+![Screenshot_437](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/e1151f4b-574c-48e7-9b79-aaed70b3046b)  
+
+![Screenshot_434](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/69f1c5f8-dede-476f-825d-84dde6d65e84)  
 
 ### Задание 2
 
-Выполните explain analyze следующего запроса:  
-```
-select distinct concat(c.last_name, ' ', c.first_name), sum(p.amount) over (partition by c.customer_id, f.title)
-from payment p, rental r, customer c, inventory i, film f
-where date(p.payment_date) = '2005-07-30' and p.payment_date = r.rental_date and r.customer_id = c.customer_id and i.inventory_id = r.inventory_id
-```
-* перечислите узкие места;  
-* оптимизируйте запрос: внесите корректировки по использованию операторов, при необходимости добавьте индексы.  
+1. Установите поддержку LUKS.  
+2. Создайте небольшой раздел, например, 100 Мб.  
+3. Зашифруйте созданный раздел с помощью LUKS.  
+В качестве ответа пришлите снимки экрана с поэтапным выполнением задания.  
  
 ### Решение 2
 
-Узким местом в запросе является то, что оконная функция обрабатывает таблицы, данные из которых в дальнейшем не используются (rental, inventory и film). Необходимые данные находятся в таблице payment и customer. В связи с этим запрос можно оптемезировать так:
   
-```
-SELECT CONCAT(c.last_name, ' ', c.first_name), SUM(p.amount) FROM customer c JOIN payment p ON p.customer_id =
-c.customer_id WHERE p.payment_date >= '2005-07-30' AND p.payment_date < DATE_ADD('2005-07-30', INTERVAL 1 DAY) GROUP BY c.customer_id;
-```
-![Screenshot_433](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/7cb1f462-fbf5-48f9-a8e4-8e7e7cb510a7)  
