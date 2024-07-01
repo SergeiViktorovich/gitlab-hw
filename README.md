@@ -60,7 +60,9 @@ Suricata обнаружила, -sT, -sS и -sV сканирования.
  
 ### Решение 2
 
-  
-  
+Скрин Suricata  
+![Screenshot_455](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/8049dfcc-feaf-4b87-9704-066d5996a17c)  
+![Screenshot_456](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/3b7d5d1d-d642-4e68-85fc-e14c6d7c04ca)  
+Удалось подобрать пару логин / пароль.
   
 
