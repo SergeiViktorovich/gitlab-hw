@@ -39,7 +39,10 @@
 ![Screenshot_454](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/01f4bc95-9920-47a5-91e1-bb9e81b8073b)  
 Suricata обнаружила, -sT, -sS и -sV сканирования.  
 -sA небыл зафиксирован. Он используется для определения фильтрации и выполняется без установления соединения.  
+
 Скрин Fail2Ban:  
+![Screenshot_457](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/4c72d6c2-25f1-4d3c-8517-4907e4dd84f3)  
+Cканирование не обнаружено, так как процесс аутентификации не выполнялся.  
 
 ### Задание 2
 
@@ -63,6 +66,8 @@ Suricata обнаружила, -sT, -sS и -sV сканирования.
 Скрин Suricata  
 ![Screenshot_455](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/8049dfcc-feaf-4b87-9704-066d5996a17c)  
 ![Screenshot_456](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/3b7d5d1d-d642-4e68-85fc-e14c6d7c04ca)  
-Удалось подобрать пару логин / пароль.
-  
+Удалось подобрать пару логин / пароль.  
 
+Скрин Fail2Ban  
+![Screenshot_458](https://github.com/SergeiViktorovich/gitlab-hw/assets/143599204/33dd6473-4824-4246-8fcc-d72c61854d8d)  
+попытка подвора учетных данных обнаружена. IP адрес заблокирован.  
